@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AI Game Controller</string>
+    <string name="settings_title">设置</string>
+    <string name="knowledge_title">知识库</string>
+    <string name="log_title">运行日志</string>
+    <string name="learn_title">预学习</string>
+
+    <!-- 无障碍服务 -->
+    <string name="accessibility_service_description">AI游戏控制需要无障碍服务来获取屏幕内容并执行游戏操作。此服务仅在本地运行，不会上传任何数据。</string>
+
+    <!-- 主界面 -->
+    <string name="status_idle">空闲</string>
+    <string name="status_initializing">初始化中...</string>
+    <string name="status_running">运行中</string>
+    <string name="status_paused">已暂停</string>
+    <string name="status_error">错误</string>
+
+    <string name="btn_start">开始</string>
+    <string name="btn_pause">暂停</string>
+    <string name="btn_stop">停止</string>
+    <string name="btn_settings">设置</string>
+    <string name="btn_knowledge">知识库</string>
+    <string name="btn_logs">日志</string>
+    <string name="btn_learn">预学习</string>
+
+    <!-- 权限提示 -->
+    <string name="permission_accessibility_title">需要无障碍权限</string>
+    <string name="permission_accessibility_message">请授予无障碍服务权限以启用游戏控制功能</string>
+    <string name="permission_overlay_title">需要悬浮窗权限</string>
+    <string name="permission_overlay_message">请授予悬浮窗权限以显示控制面板</string>
+    <string name="btn_grant_permission">授予权限</string>
+
+    <!-- 设置界面 -->
+    <string name="settings_category_basic">基础设置</string>
+    <string name="settings_frame_rate">截图帧率</string>
+    <string name="settings_resolution_scale">分辨率缩放</string>
+    <string name="settings_action_delay">操作延迟</string>
+
+    <string name="settings_category_strategy">AI策略</string>
+    <string name="settings_strategy_aggressive">激进型</string>
+    <string name="settings_strategy_balanced">平衡型</string>
+    <string name="settings_strategy_conservative">保守型</string>
+
+    <string name="settings_category_advanced">高级设置</string>
+    <string name="settings_auto_pickup">自动拾取</string>
+    <string name="settings_auto_potion">自动吃药阈值</string>
+    <string name="settings_skill_priority">技能优先级</string>
+
+    <!-- 知识库界面 -->
+    <string name="knowledge_tab_skills">技能</string>
+    <string name="knowledge_tab_items">物品</string>
+    <string name="knowledge_empty">暂无知识数据，请先进行预学习</string>
+    <string name="knowledge_delete_confirm">确定要删除此知识吗？</string>
+
+    <!-- 预学习界面 -->
+    <string name="learn_instructions">打开游戏界面，点击开始学习，AI将自动识别并学习技能和物品信息</string>
+    <string name="learn_scanning">正在扫描...</string>
+    <string name="learn_found">发现 %d 个新知识</string>
+    <string name="learn_confirm">确认保存</string>
+
+    <!-- 日志界面 -->
+    <string name="log_level_debug">DEBUG</string>
+    <string name="log_level_info">INFO</string>
+    <string name="log_level_warn">WARN</string>
+    <string name="log_level_error">ERROR</string>
+    <string name="log_export">导出日志</string>
+    <string name="log_clear">清除日志</string>
+
+    <!-- 内存信息 -->
+    <string name="memory_usage">内存占用: %d MB / %d MB</string>
+    <string name="fps_info">帧率: %d FPS</string>
+    <string name="latency_info">延迟: %d ms</string>
+
+    <!-- 通知 -->
+    <string name="notification_channel_name">AI游戏控制</string>
+    <string name="notification_channel_desc">AI游戏控制服务状态通知</string>
+    <string name="notification_running">AI控制运行中</string>
+    <string name="notification_paused">AI控制已暂停</string>
+
+    <!-- 关于 -->
+    <string name="about_title">关于</string>
+    <string name="about_version">版本: %s</string>
+    <string name="about_disclaimer">本应用仅供学习研究使用，请勿用于违反游戏规则的行为。使用本应用产生的任何后果由用户自行承担。</string>
+</resources>
